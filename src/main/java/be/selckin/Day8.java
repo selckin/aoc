@@ -50,7 +50,7 @@ public class Day8 {
     }
 
 
-    private static long lcm(long a, long b) {
+    public static long lcm(long a, long b) {
         return a * (b / gcd(a, b));
     }
 
